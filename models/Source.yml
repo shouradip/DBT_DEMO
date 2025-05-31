@@ -1,10 +1,8 @@
 version: 2
 
 sources:
-  - name: demo
-    database: DEMO
-    schema: DEMO_SCHEMA
+  - name: DEMO
+    schema: DEMO_SCHEMA  # Replace with your actual schema name
+    database: DEMO       # Replace with your actual database name
     tables:
-      - name: BIKE
-      - name: WEATHER
-      - ...
+      - name: BIKE       # Replace with your actual table name
