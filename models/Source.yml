@@ -6,3 +6,11 @@ sources:
     database: DEMO       # Replace with your actual database name
     tables:
       - name: BIKE       # Replace with your actual table name
+      - name: WEATHER
+
+  - name: USCRIME
+    schema: CYBERSYN  # Replace with your actual schema name
+    database: US_CRIME       # Replace with your actual database name
+    tables:
+      - name: URBAN_CRIME_INCIDENT_LOG       # Replace with your actual table name
+
